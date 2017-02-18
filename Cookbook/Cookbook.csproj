@@ -112,10 +112,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Cookbook.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Cookbook_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>Cookbook.mdf</DependentUpon>
     </Content>
   </ItemGroup>
